@@ -23,7 +23,7 @@ combination. \
 
 To only print the batch jobs you can run the following command:
 
-`uv run submitt.py --config "config.json" --dry-run`
+`uv run submit.py --config "config.json" --dry-run`
 
 To actually submit the jobs you can run the following command and add the configuration in a config.json:
 

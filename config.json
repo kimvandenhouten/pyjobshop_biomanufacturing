@@ -3,7 +3,7 @@
   "instances_dir": "problem_instances",
   "instance_names": ["problem_data_o5_s1"],
   "time_limits": [30],
-  "solvers": ["cpoptimizer"],
+  "solvers": ["ortools"],
   "warmstarts": [true],
   "write_results": true,
   "num_workers": 8,
