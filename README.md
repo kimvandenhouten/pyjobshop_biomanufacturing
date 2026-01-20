@@ -1,3 +1,12 @@
+### General
+
+This repository contains benchmark instances derived from a real-world biomanufacturing factory. The instances are designed to reflect practical scheduling constraints and operational complexity encountered in industrial biomanufacturing environments, making them suitable for both research and applied optimization studies.
+
+The benchmark instances are supported by PyJobShop, a constraint programming–based interface for modeling and solving scheduling problems. PyJobShop provides a unified modeling layer with backends for Google OR-Tools and IBM ILOG CP Optimizer. Please note that using CP Optimizer requires a valid commercial license.
+
+Together, this setup enables reproducible benchmarking and comparison of constraint programming approaches on realistic biomanufacturing scheduling problems.
+
+
 ### Installation with uv (after cloning or forking the repository)
 
 We make use of uv (https://github.com/astral-sh/uv) for the installation and testing.
