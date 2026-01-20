@@ -2,7 +2,7 @@
 
 This repository contains benchmark instances derived from a real-world biomanufacturing factory. The instances are designed to reflect practical scheduling constraints and operational complexity encountered in industrial biomanufacturing environments, making them suitable for both research and applied optimization studies.
 
-The benchmark instances are supported by PyJobShop, a constraint programming–based interface for modeling and solving scheduling problems. PyJobShop provides a unified modeling layer with backends for Google OR-Tools and IBM ILOG CP Optimizer. Please note that using CP Optimizer requires a valid commercial license.
+The benchmark instances are supported by PyJobShop (https://pyjobshop.org/stable/), a constraint programming–based interface for modeling and solving scheduling problems. PyJobShop provides a unified modeling layer with backends for Google OR-Tools and IBM ILOG CP Optimizer. Please note that using CP Optimizer requires a valid commercial license.
 
 Together, this setup enables reproducible benchmarking and comparison of constraint programming approaches on realistic biomanufacturing scheduling problems.
 
@@ -53,3 +53,7 @@ To commit and push the new summary files from server (DelftBlue) to the git, do 
 To summarize the results that come from one config, you can run the following command (check which path you need):
 
 `uv run summarize_results.py --dir "summaries/summary_1760346825"`
+
+### References
+
+Lan, L., and Berkhout, J. (2025). PyJobShop: Solving scheduling problems with constraint programming in Python. https://arxiv.org/abs/2502.13483
