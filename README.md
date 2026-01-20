@@ -18,7 +18,8 @@ We make use of pre-commit (https://pre-commit.com/) for formatting of our files.
 
 ### Running experiments on DelftBlue
 
-We make use of the benchmark_instance.py and the jobscript.py to submit jobs to DelftBlue for each instance configuraiton combination. \
+We make use of the benchmark_instance.py and the jobscript.py to submit jobs to DelftBlue for each instance configuration
+combination. \
 
 To only print the batch jobs you can run the following command:
 

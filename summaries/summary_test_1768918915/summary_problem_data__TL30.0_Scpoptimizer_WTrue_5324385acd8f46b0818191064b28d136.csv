@@ -1,0 +1,2 @@
+status,objective,runtime,warmstart_time,lower_bound,gap,time_limit,solver,instance_name,warmstart,warmstart_makespan
+Feasible,264,30.05,0.41,216,22.222,30.0,cpoptimizer,problem_data_o5_s1,True,931

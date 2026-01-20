@@ -1,0 +1,28 @@
+{
+    "experiment_name": "test",
+    "instances_dir": "problem_instances",
+    "instance_names": [
+        "problem_data_o5_s1"
+    ],
+    "time_limits": [
+        30
+    ],
+    "solvers": [
+        "cpoptimizer"
+    ],
+    "warmstarts": [
+        true
+    ],
+    "write_results": true,
+    "num_workers": 8,
+    "buffer_wall_time": 10000,
+    "add_setups": [
+        true
+    ],
+    "add_nowaits": [
+        true
+    ],
+    "nowait_slacks": [
+        0
+    ]
+}
