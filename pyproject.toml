@@ -1,7 +1,7 @@
 [project]
-name = "SeclinPyJobShop"
+name = "PyJobShop Biomanufacturing"
 version = "0.1.0"
-description = "CP model of the Seclin UPROD site"
+description = "CP scheduling instances of a real biomanufacturing site"
 authors = [
     { name = "Kim van den Houten", email = "K.C.vandenhouten@tudelft.nl"},
 ]
