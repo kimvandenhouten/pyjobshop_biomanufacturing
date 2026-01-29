@@ -1,5 +1,5 @@
 [project]
-name = "PyJobShop Biomanufacturing"
+name = "PyJobShopBiomanufacturing"
 version = "0.1.0"
 description = "CP scheduling instances of a real biomanufacturing site"
 authors = [
